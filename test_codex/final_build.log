@@ -1,0 +1,115 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./论文.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/ctexart.cls
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+(j:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(j:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
+(j:/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def))
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(j:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(j:/texlive/2025/texmf-dist/tex/latex/base/size12.clo))
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+(j:/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(j:/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(j:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(j:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(j:/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(j:/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(j:/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+ef (j:/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def))
+(j:/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(j:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(j:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(j:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(j:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(j:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(j:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(j:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(j:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(j:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(j:/texlive/2025/texmf-dist/tex/latex/tools/bm.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/tools/array.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(j:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(j:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(j:/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(j:/texlive/2025/texmf-dist/tex/latex/float/float.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+(j:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+(j:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty)))
+(j:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(j:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(j:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(j:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(j:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(j:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(j:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(j:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(j:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(j:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(j:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(j:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(j:/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(j:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(j:/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(j:/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(j:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(j:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(j:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(j:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+(j:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty)
+(j:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg))
+(j:/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty) (./论文.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(./论文.out) (./论文.out) (j:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(j:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12] (./论文.aux) )
+Output written on 论文.pdf (12 pages).
+Transcript written on 论文.log.

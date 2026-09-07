@@ -1,0 +1,43 @@
+﻿model,feature,importance,label
+logistic,num__gc21,2.016482411030384,21号 GC
+logistic,num__gc13,1.4130870349827611,13号 GC
+logistic,num__x_conc,0.9679728828363318,X染色体浓度
+logistic,num__gc18,0.7959879032357976,18号 GC
+logistic,num__age,0.3965909445403662,年龄
+logistic,num__gest_week,0.27524423848557905,孕周
+logistic,num__weight,0.27139014977613946,体重
+logistic,num__filter_rate,0.2448828891766967,过滤比例
+logistic,num__dup_rate,0.23386360379391088,重复比例
+logistic,num__map_rate,0.22308721578798818,比对比例
+logistic,num__z21,0.18773333803492473,21号 Z 值
+logistic,num__zx,0.1727387136952197,X号 Z 值
+logistic,num__z18,0.1609585790104425,18号 Z 值
+logistic,num__bmi,0.1430798756086899,BMI
+logistic,num__z13,0.13674789733220383,13号 Z 值
+logistic,num__gc,0.1100904209062854,总体 GC 含量
+logistic,num__unique_reads,0.09142141043741042,唯一比对读段数
+logistic,num__height,0.03330186835747103,身高
+logistic,cat__ivf_自然受孕,0.02165877061296463,cat__ivf_自然受孕
+logistic,num__reads,0.021092614251105216,原始读段数
+logistic,cat__ivf_IVF（试管婴儿）,0.007148402679554949,cat__ivf_IVF（试管婴儿）
+random_forest,num__x_conc,0.22446079074028655,X染色体浓度
+random_forest,num__gc13,0.09150088887717914,13号 GC
+random_forest,num__gc21,0.07673414677585844,21号 GC
+random_forest,num__bmi,0.07628236924313578,BMI
+random_forest,num__gc18,0.07390663778960553,18号 GC
+random_forest,num__gest_week,0.04244722633815404,孕周
+random_forest,num__weight,0.04057567347928724,体重
+random_forest,num__age,0.03938851870317206,年龄
+random_forest,num__gc,0.03716916263607317,总体 GC 含量
+random_forest,num__dup_rate,0.036179261786437336,重复比例
+random_forest,num__filter_rate,0.035051414710620295,过滤比例
+random_forest,num__z18,0.03369391245027355,18号 Z 值
+random_forest,num__z13,0.032629195478632016,13号 Z 值
+random_forest,num__map_rate,0.029159082804072704,比对比例
+random_forest,num__zx,0.02866041994338189,X号 Z 值
+random_forest,num__reads,0.028519460990094947,原始读段数
+random_forest,num__z21,0.026124981994794808,21号 Z 值
+random_forest,num__unique_reads,0.025448731875376326,唯一比对读段数
+random_forest,num__height,0.02197277807143828,身高
+random_forest,cat__ivf_IVF（试管婴儿）,9.534531212594902e-05,cat__ivf_IVF（试管婴儿）
+random_forest,cat__ivf_自然受孕,0.0,cat__ivf_自然受孕

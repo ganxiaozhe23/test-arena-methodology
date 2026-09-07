@@ -1,0 +1,607 @@
+{
+ "n": 1075,
+ "models": {
+  "E1_q1+age": {
+   "formula": "lnC ~ gest + bmi + I(bmi**2) + age",
+   "R2": 0.0749,
+   "AIC_c": 1335.6,
+   "BIC": 1360.5,
+   "params": {
+    "Intercept": {
+     "coef": -5.87703,
+     "p": "7.12e-09"
+    },
+    "gest": {
+     "coef": 0.01332,
+     "p": "4.39e-05"
+    },
+    "bmi": {
+     "coef": 0.23101,
+     "p": "1.26e-04"
+    },
+    "I(bmi ** 2)": {
+     "coef": -0.00391,
+     "p": "1.72e-05"
+    },
+    "age": {
+     "coef": -0.01269,
+     "p": "9.81e-04"
+    }
+   }
+  },
+  "E2_wh+age": {
+   "formula": "lnC ~ gest + weight + height + age",
+   "R2": 0.0632,
+   "AIC_c": 1349.1,
+   "BIC": 1374.0,
+   "params": {
+    "Intercept": {
+     "coef": -2.29993,
+     "p": "6.05e-05"
+    },
+    "gest": {
+     "coef": 0.0129,
+     "p": "8.93e-05"
+    },
+    "weight": {
+     "coef": -0.01151,
+     "p": "5.63e-08"
+    },
+    "height": {
+     "coef": 0.00456,
+     "p": "2.52e-01"
+    },
+    "age": {
+     "coef": -0.01225,
+     "p": "1.07e-03"
+    }
+   }
+  },
+  "E3_wh+age+bmi": {
+   "formula": "lnC ~ gest + weight + height + age + bmi",
+   "R2": 0.0678,
+   "AIC_c": 1345.8,
+   "BIC": 1375.6,
+   "params": {
+    "Intercept": {
+     "coef": -12.39662,
+     "p": "1.41e-02"
+    },
+    "gest": {
+     "coef": 0.01295,
+     "p": "8.88e-05"
+    },
+    "weight": {
+     "coef": -0.07119,
+     "p": "1.62e-02"
+    },
+    "height": {
+     "coef": 0.06662,
+     "p": "3.19e-02"
+    },
+    "age": {
+     "coef": -0.01157,
+     "p": "1.95e-03"
+    },
+    "bmi": {
+     "coef": 0.15753,
+     "p": "4.54e-02"
+    }
+   }
+  },
+  "E4_wh_quad": {
+   "formula": "lnC ~ gest + weight + height + age + I(weight**2)",
+   "R2": 0.0817,
+   "AIC_c": 1329.6,
+   "BIC": 1359.5,
+   "params": {
+    "Intercept": {
+     "coef": -4.71103,
+     "p": "7.80e-06"
+    },
+    "gest": {
+     "coef": 0.01357,
+     "p": "3.47e-05"
+    },
+    "weight": {
+     "coef": 0.0537,
+     "p": "2.04e-02"
+    },
+    "height": {
+     "coef": 0.00148,
+     "p": "7.03e-01"
+    },
+    "age": {
+     "coef": -0.01105,
+     "p": "3.27e-03"
+    },
+    "I(weight ** 2)": {
+     "coef": -0.00037,
+     "p": "6.02e-03"
+    }
+   }
+  }
+ },
+ "selected": "E4_wh_quad",
+ "llC": {
+  "E1_q1+age": 2206.5,
+  "E2_wh+age": 2199.7,
+  "E3_wh+age+bmi": 2202.4,
+  "E4_wh_quad": 2210.5
+ },
+ "VIF": {
+  "Intercept": 1.0,
+  "gest": 1.02,
+  "weight": 105.14,
+  "height": 1.71,
+  "age": 1.01,
+  "I(weight ** 2)": 101.5
+ },
+ "mixed": {
+  "Intercept": {
+   "coef": -2.49239,
+   "p": "1.24e-02"
+  },
+  "gest": {
+   "coef": 0.04292,
+   "p": "6.97e-74"
+  },
+  "weight": {
+   "coef": 0.00256,
+   "p": "8.80e-01"
+  },
+  "height": {
+   "coef": -0.00241,
+   "p": "6.93e-01"
+  },
+  "age": {
+   "coef": -0.01046,
+   "p": "1.32e-01"
+  },
+  "I(weight ** 2)": {
+   "coef": -6e-05,
+   "p": "5.20e-01"
+  },
+  "Group Var": {
+   "coef": 2.49125,
+   "p": "1.30e-18"
+  }
+ },
+ "mixed_var": {
+  "intercept_var": 0.15303,
+  "resid_var": 0.06143
+ },
+ "grouping": {
+  "K4": {
+   "total_risk_per_person": 1.0471,
+   "groups": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "n": 74,
+     "best_t": 10.0,
+     "mean_risk": 1.023,
+     "mean_ntests": 1.246,
+     "model_pass_rate": 0.862,
+     "emp_pass_rate": null,
+     "n_emp_window": 3,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.023
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "n": 50,
+     "best_t": 10.0,
+     "mean_risk": 1.0207,
+     "mean_ntests": 1.231,
+     "model_pass_rate": 0.873,
+     "emp_pass_rate": null,
+     "n_emp_window": 4,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0207
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "n": 909,
+     "best_t": 10.0,
+     "mean_risk": 1.0285,
+     "mean_ntests": 1.282,
+     "model_pass_rate": 0.839,
+     "emp_pass_rate": 0.889,
+     "n_emp_window": 18,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0285
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "n": 42,
+     "best_t": 10.25,
+     "mean_risk": 1.5244,
+     "mean_ntests": 2.171,
+     "model_pass_rate": 0.567,
+     "emp_pass_rate": null,
+     "n_emp_window": 1,
+     "ind_t_mean": 10.02,
+     "ind_t_sd": 0.07,
+     "risk_if_individual": 1.515
+    }
+   ]
+  },
+  "K5": {
+   "total_risk_per_person": 1.0471,
+   "groups": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "n": 74,
+     "best_t": 10.0,
+     "mean_risk": 1.023,
+     "mean_ntests": 1.246,
+     "model_pass_rate": 0.862,
+     "emp_pass_rate": null,
+     "n_emp_window": 3,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.023
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "n": 50,
+     "best_t": 10.0,
+     "mean_risk": 1.0207,
+     "mean_ntests": 1.231,
+     "model_pass_rate": 0.873,
+     "emp_pass_rate": null,
+     "n_emp_window": 4,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0207
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      29.5
+     ],
+     "n": 67,
+     "best_t": 10.0,
+     "mean_risk": 1.0212,
+     "mean_ntests": 1.234,
+     "model_pass_rate": 0.871,
+     "emp_pass_rate": null,
+     "n_emp_window": 2,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0212
+    },
+    {
+     "bmi_interval": [
+      30.0,
+      38.0
+     ],
+     "n": 842,
+     "best_t": 10.0,
+     "mean_risk": 1.0291,
+     "mean_ntests": 1.286,
+     "model_pass_rate": 0.837,
+     "emp_pass_rate": 0.875,
+     "n_emp_window": 16,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0291
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "n": 42,
+     "best_t": 10.25,
+     "mean_risk": 1.5244,
+     "mean_ntests": 2.171,
+     "model_pass_rate": 0.567,
+     "emp_pass_rate": null,
+     "n_emp_window": 1,
+     "ind_t_mean": 10.02,
+     "ind_t_sd": 0.07,
+     "risk_if_individual": 1.515
+    }
+   ]
+  },
+  "K6": {
+   "total_risk_per_person": 1.0471,
+   "groups": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "n": 74,
+     "best_t": 10.0,
+     "mean_risk": 1.023,
+     "mean_ntests": 1.246,
+     "model_pass_rate": 0.862,
+     "emp_pass_rate": null,
+     "n_emp_window": 3,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.023
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "n": 50,
+     "best_t": 10.0,
+     "mean_risk": 1.0207,
+     "mean_ntests": 1.231,
+     "model_pass_rate": 0.873,
+     "emp_pass_rate": null,
+     "n_emp_window": 4,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0207
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      29.5
+     ],
+     "n": 67,
+     "best_t": 10.0,
+     "mean_risk": 1.0212,
+     "mean_ntests": 1.234,
+     "model_pass_rate": 0.871,
+     "emp_pass_rate": null,
+     "n_emp_window": 2,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0212
+    },
+    {
+     "bmi_interval": [
+      30.0,
+      30.0
+     ],
+     "n": 80,
+     "best_t": 10.0,
+     "mean_risk": 1.0217,
+     "mean_ntests": 1.238,
+     "model_pass_rate": 0.868,
+     "emp_pass_rate": null,
+     "n_emp_window": 0,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0217
+    },
+    {
+     "bmi_interval": [
+      30.5,
+      38.0
+     ],
+     "n": 762,
+     "best_t": 10.0,
+     "mean_risk": 1.0298,
+     "mean_ntests": 1.291,
+     "model_pass_rate": 0.833,
+     "emp_pass_rate": 0.875,
+     "n_emp_window": 16,
+     "ind_t_mean": 10.0,
+     "ind_t_sd": 0.0,
+     "risk_if_individual": 1.0298
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "n": 42,
+     "best_t": 10.25,
+     "mean_risk": 1.5244,
+     "mean_ntests": 2.171,
+     "model_pass_rate": 0.567,
+     "emp_pass_rate": null,
+     "n_emp_window": 1,
+     "ind_t_mean": 10.02,
+     "ind_t_sd": 0.07,
+     "risk_if_individual": 1.515
+    }
+   ]
+  }
+ },
+ "compare": {
+  "q2_total_risk": 1.0442,
+  "q3_total_risk": 1.0471
+ },
+ "error_sensitivity": [
+  {
+   "cv_error": 0.0,
+   "total_risk": 1.0471,
+   "group_best_t": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "best_t": 10.25
+    }
+   ]
+  },
+  {
+   "cv_error": 0.05,
+   "total_risk": 1.0473,
+   "group_best_t": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "best_t": 10.25
+    }
+   ]
+  },
+  {
+   "cv_error": 0.1,
+   "total_risk": 1.0478,
+   "group_best_t": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "best_t": 10.25
+    }
+   ]
+  },
+  {
+   "cv_error": 0.15,
+   "total_risk": 1.0487,
+   "group_best_t": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "best_t": 10.25
+    }
+   ]
+  },
+  {
+   "cv_error": 0.2,
+   "total_risk": 1.05,
+   "group_best_t": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "best_t": 10.0
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "best_t": 10.25
+    }
+   ]
+  }
+ ]
+}

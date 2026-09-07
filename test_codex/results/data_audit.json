@@ -1,0 +1,137 @@
+{
+  "male": {
+    "name": "男胎",
+    "rows": 1082,
+    "mothers": 267,
+    "repeat_mothers": 260,
+    "max_tests_per_mother": 8,
+    "missing_by_column": {
+      "lmp": 12,
+      "gravidity": 300
+    },
+    "numeric_summary": {
+      "gest_week": {
+        "missing": 0,
+        "min": 11.0,
+        "max": 29.0,
+        "mean": 16.8456561922366
+      },
+      "bmi": {
+        "missing": 0,
+        "min": 20.703125,
+        "max": 46.875,
+        "mean": 32.28879078882743
+      },
+      "age": {
+        "missing": 0,
+        "min": 21.0,
+        "max": 43.0,
+        "mean": 28.93992606284658
+      },
+      "height": {
+        "missing": 0,
+        "min": 144.0,
+        "max": 175.0,
+        "mean": 161.0637707948244
+      },
+      "weight": {
+        "missing": 0,
+        "min": 53.0,
+        "max": 140.0,
+        "mean": 83.8948336414048
+      },
+      "reads": {
+        "missing": 0,
+        "min": 1342544.0,
+        "max": 9895358.0,
+        "mean": 4692190.2356746765
+      },
+      "y_conc": {
+        "missing": 0,
+        "min": 0.010003887,
+        "max": 0.234217554,
+        "mean": 0.07718697843807763
+      },
+      "x_conc": {
+        "missing": 0,
+        "min": -0.076508263,
+        "max": 0.223932573,
+        "mean": 0.057024936271719034
+      }
+    },
+    "label_distribution": {
+      "": 956,
+      "T18": 57,
+      "T13T18": 25,
+      "T21": 23,
+      "T13": 20,
+      "T13T18T21": 1
+    }
+  },
+  "female": {
+    "name": "女胎",
+    "rows": 605,
+    "mothers": 147,
+    "repeat_mothers": 143,
+    "max_tests_per_mother": 9,
+    "missing_by_column": {
+      "bmi": 1,
+      "Unnamed: 20": 605,
+      "Unnamed: 21": 605,
+      "gravidity": 165
+    },
+    "numeric_summary": {
+      "gest_week": {
+        "missing": 0,
+        "min": 11.0,
+        "max": 28.428571428571427,
+        "mean": 18.345926800472252
+      },
+      "bmi": {
+        "missing": 1,
+        "min": 25.59373706,
+        "max": 45.72473708,
+        "mean": 32.16241331817881
+      },
+      "age": {
+        "missing": 0,
+        "min": 19.0,
+        "max": 44.0,
+        "mean": 30.01818181818182
+      },
+      "height": {
+        "missing": 0,
+        "min": 135.0,
+        "max": 173.0,
+        "mean": 161.31272727272727
+      },
+      "weight": {
+        "missing": 0,
+        "min": 56.0,
+        "max": 121.0,
+        "mean": 83.81634710743802
+      },
+      "reads": {
+        "missing": 0,
+        "min": 2028749.0,
+        "max": 13545982.0,
+        "mean": 4711221.517355372
+      },
+      "x_conc": {
+        "missing": 0,
+        "min": -0.070047795,
+        "max": 0.120868993,
+        "mean": -0.006850891368595041
+      }
+    },
+    "label_distribution": {
+      "": 538,
+      "T18": 33,
+      "T13T18": 11,
+      "T13": 10,
+      "T21": 9,
+      "T18T21": 2,
+      "T13T21": 2
+    }
+  }
+}

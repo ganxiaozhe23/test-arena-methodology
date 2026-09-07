@@ -1,0 +1,231 @@
+{
+  "empirical_grouping": {
+    "bins": [
+      20.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      50.0
+    ],
+    "groups": [
+      {
+        "group": "[20.0, 28.0)",
+        "n_patients": 5,
+        "pct_patients": 1.8726591760299627,
+        "mean_BMI": 26.20407640209932,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.6093908652752996,
+        "avg_qual_prob": 0.8892016608590364,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[28.0, 32.0)",
+        "n_patients": 147,
+        "pct_patients": 55.0561797752809,
+        "mean_BMI": 29.98433773949868,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.8594444492052205,
+        "avg_qual_prob": 0.8437373728717781,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[32.0, 36.0)",
+        "n_patients": 95,
+        "pct_patients": 35.580524344569284,
+        "mean_BMI": 33.559837657800976,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.1720941613852538,
+        "avg_qual_prob": 0.7868919706572266,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[36.0, 40.0)",
+        "n_patients": 16,
+        "pct_patients": 5.992509363295881,
+        "mean_BMI": 37.70213785838301,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.605958060249983,
+        "avg_qual_prob": 0.708007625409094,
+        "empirical_med_pass_GA": 13.850774822530484
+      },
+      {
+        "group": "[40.0, 50.0)",
+        "n_patients": 4,
+        "pct_patients": 1.4981273408239701,
+        "mean_BMI": 43.28222994,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 2.290309671834897,
+        "avg_qual_prob": 0.5835800596663824,
+        "empirical_med_pass_GA": 18.03274254843915
+      }
+    ],
+    "avg_population_risk": 1.0321752859269
+  },
+  "optimal_4group": {
+    "bins": [
+      20.693125,
+      29.756464415,
+      31.28831929,
+      33.35885589395795,
+      46.885
+    ],
+    "groups": [
+      {
+        "group": "[20.7, 29.8)",
+        "n_patients": 67,
+        "pct_patients": 25.0936329588015,
+        "mean_BMI": 28.7590843828114,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.7668211839447072,
+        "avg_qual_prob": 0.8605779665555077,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[29.8, 31.3)",
+        "n_patients": 66,
+        "pct_patients": 24.719101123595504,
+        "mean_BMI": 30.46412171258741,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.8956616111586908,
+        "avg_qual_prob": 0.8371524343347835,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[31.3, 33.4)",
+        "n_patients": 67,
+        "pct_patients": 25.0936329588015,
+        "mean_BMI": 32.38634982152512,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.0610068441430092,
+        "avg_qual_prob": 0.8070896647012711,
+        "empirical_med_pass_GA": 12.928571428571429
+      },
+      {
+        "group": "[33.4, 46.9)",
+        "n_patients": 67,
+        "pct_patients": 25.0936329588015,
+        "mean_BMI": 35.75954638777175,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.4031739869273396,
+        "avg_qual_prob": 0.7448774569223019,
+        "empirical_med_pass_GA": 12.857142857142858
+      }
+    ],
+    "avg_population_risk": 1.0321752859269002
+  },
+  "optimal_5group": {
+    "bins": [
+      20.693125,
+      29.42366741721042,
+      30.4833793,
+      32.19981183565924,
+      33.87191065284194,
+      46.885
+    ],
+    "groups": [
+      {
+        "group": "[20.7, 29.4)",
+        "n_patients": 54,
+        "pct_patients": 20.224719101123593,
+        "mean_BMI": 28.548278249010952,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.7517197685684005,
+        "avg_qual_prob": 0.8633236784421088,
+        "empirical_med_pass_GA": 12.857142857142858
+      },
+      {
+        "group": "[29.4, 30.5)",
+        "n_patients": 52,
+        "pct_patients": 19.475655430711612,
+        "mean_BMI": 30.042689670445842,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.8616631608338517,
+        "avg_qual_prob": 0.8433339707574816,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[30.5, 32.2)",
+        "n_patients": 54,
+        "pct_patients": 20.224719101123593,
+        "mean_BMI": 31.32165796733902,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.9672824611387133,
+        "avg_qual_prob": 0.8241304616111433,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[32.2, 33.9)",
+        "n_patients": 53,
+        "pct_patients": 19.850187265917604,
+        "mean_BMI": 32.99935606126718,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.1169398943320887,
+        "avg_qual_prob": 0.7969200192123475,
+        "empirical_med_pass_GA": 12.714285714285714
+      },
+      {
+        "group": "[33.9, 46.9)",
+        "n_patients": 54,
+        "pct_patients": 20.224719101123593,
+        "mean_BMI": 36.27969338719965,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.458525595839578,
+        "avg_qual_prob": 0.7348135280291678,
+        "empirical_med_pass_GA": 13.142857142857142
+      }
+    ],
+    "avg_population_risk": 1.0321752859269002
+  },
+  "sensitivity": [
+    {
+      "sigma_e": 0.0,
+      "emp_avg_risk": 1.0321752859269,
+      "q4_avg_risk": 1.0321752859269002,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    },
+    {
+      "sigma_e": 0.002,
+      "emp_avg_risk": 1.034545535821282,
+      "q4_avg_risk": 1.034545535821282,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    },
+    {
+      "sigma_e": 0.005,
+      "emp_avg_risk": 1.0468360733710764,
+      "q4_avg_risk": 1.0468360733710764,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    },
+    {
+      "sigma_e": 0.008,
+      "emp_avg_risk": 1.0690004070747756,
+      "q4_avg_risk": 1.0690004070747756,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    },
+    {
+      "sigma_e": 0.01,
+      "emp_avg_risk": 1.088733751553791,
+      "q4_avg_risk": 1.0887337515537912,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    },
+    {
+      "sigma_e": 0.015,
+      "emp_avg_risk": 1.1523510814583655,
+      "q4_avg_risk": 1.1523510814583653,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    },
+    {
+      "sigma_e": 0.02,
+      "emp_avg_risk": 1.2305045446900855,
+      "q4_avg_risk": 1.2305045446900855,
+      "opt_timing_BMI31_8": 10.0,
+      "opt_timing_BMI38": 10.0
+    }
+  ]
+}

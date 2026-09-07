@@ -1,0 +1,287 @@
+{
+ "clean_log": {
+  "n_raw": 1082,
+  "n_drop_missing": 1,
+  "n_outlier": 6,
+  "n_clean": 1075,
+  "bmi_consistency_max_abs_diff": 0.002209545749401798
+ },
+ "n": 1075,
+ "n_mothers": 267,
+ "correlations_vs_conc_y": {
+  "gest": {
+   "pearson_r": 0.1054,
+   "pearson_p": "5.36e-04",
+   "spearman_r": 0.075,
+   "spearman_p": "1.39e-02"
+  },
+  "bmi": {
+   "pearson_r": -0.168,
+   "pearson_p": "3.03e-08",
+   "spearman_r": -0.1557,
+   "spearman_p": "2.91e-07"
+  },
+  "weight": {
+   "pearson_r": -0.1914,
+   "pearson_p": "2.48e-10",
+   "spearman_r": -0.1659,
+   "spearman_p": "4.43e-08"
+  },
+  "height": {
+   "pearson_r": -0.1025,
+   "pearson_p": "7.65e-04",
+   "spearman_r": -0.0969,
+   "spearman_p": "1.47e-03"
+  },
+  "age": {
+   "pearson_r": -0.1119,
+   "pearson_p": "2.38e-04",
+   "spearman_r": -0.1134,
+   "spearman_p": "1.96e-04"
+  },
+  "conc_x": {
+   "pearson_r": 0.4806,
+   "pearson_p": "3.28e-63",
+   "spearman_r": 0.4666,
+   "spearman_p": "3.11e-59"
+  }
+ },
+ "icc_mother": 0.2398,
+ "models": {
+  "M1_linear": {
+   "formula": "conc_y ~ gest + bmi",
+   "R2": 0.0455,
+   "R2_adj": 0.0437,
+   "AIC": -4386.9,
+   "BIC": -4371.9,
+   "F_p": "2.43e-11",
+   "params": {
+    "Intercept": {
+     "coef": 0.12458,
+     "t": 10.72,
+     "p": "8.25e-27"
+    },
+    "gest": {
+     "coef": 0.00105,
+     "t": 4.36,
+     "p": "1.32e-05"
+    },
+    "bmi": {
+     "coef": -0.00204,
+     "t": -5.92,
+     "p": "3.27e-09"
+    }
+   }
+  },
+  "M2_loglin": {
+   "formula": "lnC ~ gest + bmi",
+   "R2": 0.0437,
+   "R2_adj": 0.0419,
+   "AIC": 1367.2,
+   "BIC": 1382.1,
+   "F_p": "2.66e-09",
+   "params": {
+    "Intercept": {
+     "coef": -1.89025,
+     "t": -10.17,
+     "p": "2.81e-24"
+    },
+    "gest": {
+     "coef": 0.01267,
+     "t": 3.83,
+     "p": "1.30e-04"
+    },
+    "bmi": {
+     "coef": -0.03073,
+     "t": -5.43,
+     "p": "5.73e-08"
+    }
+   }
+  },
+  "M3_loglog": {
+   "formula": "lnC ~ lnG + lnBMI",
+   "R2": 0.0374,
+   "R2_adj": 0.0356,
+   "AIC": 1374.2,
+   "BIC": 1389.2,
+   "F_p": "1.85e-07",
+   "params": {
+    "Intercept": {
+     "coef": -0.0199,
+     "t": -0.03,
+     "p": "9.77e-01"
+    },
+    "lnG": {
+     "coef": 0.20651,
+     "t": 3.56,
+     "p": "3.68e-04"
+    },
+    "lnBMI": {
+     "coef": -0.92965,
+     "t": -4.72,
+     "p": "2.34e-06"
+    }
+   }
+  },
+  "M4_loglin_inter": {
+   "formula": "lnC ~ gest + bmi + gest:bmi",
+   "R2": 0.0441,
+   "R2_adj": 0.0414,
+   "AIC": 1368.8,
+   "BIC": 1388.7,
+   "F_p": "9.60e-09",
+   "params": {
+    "Intercept": {
+     "coef": -1.47149,
+     "t": -1.93,
+     "p": "5.31e-02"
+    },
+    "gest": {
+     "coef": -0.01124,
+     "t": -0.28,
+     "p": "7.80e-01"
+    },
+    "bmi": {
+     "coef": -0.04367,
+     "t": -1.85,
+     "p": "6.45e-02"
+    },
+    "gest:bmi": {
+     "coef": 0.00074,
+     "t": 0.59,
+     "p": "5.55e-01"
+    }
+   }
+  },
+  "M5_quad": {
+   "formula": "lnC ~ gest + bmi + I(gest**2) + I(bmi**2)",
+   "R2": 0.0675,
+   "R2_adj": 0.064,
+   "AIC": 1344.1,
+   "BIC": 1369.0,
+   "F_p": "2.86e-13",
+   "params": {
+    "Intercept": {
+     "coef": -5.84921,
+     "t": -5.64,
+     "p": "1.68e-08"
+    },
+    "gest": {
+     "coef": -0.04404,
+     "t": -1.35,
+     "p": "1.76e-01"
+    },
+    "bmi": {
+     "coef": 0.2367,
+     "t": 3.92,
+     "p": "8.83e-05"
+    },
+    "I(gest ** 2)": {
+     "coef": 0.00159,
+     "t": 1.78,
+     "p": "7.50e-02"
+    },
+    "I(bmi ** 2)": {
+     "coef": -0.00399,
+     "t": -4.38,
+     "p": "1.18e-05"
+    }
+   }
+  },
+  "M6_quad_bmi": {
+   "formula": "lnC ~ gest + bmi + I(bmi**2)",
+   "R2": 0.0649,
+   "R2_adj": 0.0623,
+   "AIC": 1345.0,
+   "BIC": 1365.0,
+   "F_p": "3.71e-13",
+   "params": {
+    "Intercept": {
+     "coef": -6.31886,
+     "t": -6.27,
+     "p": "3.72e-10"
+    },
+    "gest": {
+     "coef": 0.01333,
+     "t": 4.07,
+     "p": "4.72e-05"
+    },
+    "bmi": {
+     "coef": 0.23555,
+     "t": 3.89,
+     "p": "1.00e-04"
+    },
+    "I(bmi ** 2)": {
+     "coef": -0.00398,
+     "t": -4.35,
+     "p": "1.34e-05"
+    }
+   }
+  }
+ },
+ "loglik_on_conc_scale": {
+  "M1_linear": 2196.4,
+  "M2_loglin": 2188.7,
+  "M3_loglog": 2185.1,
+  "M4_loglin_inter": 2188.9,
+  "M5_quad": 2202.2,
+  "M6_quad_bmi": 2200.7
+ },
+ "model_tests": {
+  "LR_M5_vs_M2": {
+   "chi2": 27.11,
+   "df": 2,
+   "p": "1.30e-06"
+  },
+  "LR_M6_vs_M2": {
+   "chi2": 24.14,
+   "df": 1,
+   "p": "8.96e-07"
+  },
+  "LR_M4_vs_M2": {
+   "chi2": 0.43,
+   "df": 1,
+   "p": "5.11e-01"
+  },
+  "LR_mixed_vs_M2": {
+   "chi2": 668.93,
+   "p": "8.52e-148"
+  }
+ },
+ "model_selected_by_BIC": "M6_quad_bmi",
+ "mixed_model": {
+  "params": {
+   "Intercept": {
+    "coef": -2.66486,
+    "p": "2.60e-31"
+   },
+   "gest": {
+    "coef": 0.04327,
+    "p": "3.67e-76"
+   },
+   "bmi": {
+    "coef": -0.02228,
+    "p": "2.43e-03"
+   }
+  },
+  "random_intercept_var": 0.159034,
+  "resid_var": 0.061304,
+  "llf": -346.1
+ },
+ "diagnostics_M2": {
+  "breusch_pagan": {
+   "LM": 0.61,
+   "p": "7.36e-01"
+  },
+  "jarque_bera": {
+   "stat": 70.9,
+   "p": "4.02e-16"
+  },
+  "VIF": {
+   "intercept": 1.0,
+   "gest": 1.02,
+   "bmi": 1.02
+  },
+  "resid_sd": 0.45595
+ }
+}

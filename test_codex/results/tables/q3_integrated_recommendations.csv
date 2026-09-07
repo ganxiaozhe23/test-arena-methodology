@@ -1,0 +1,3 @@
+﻿group,bmi_low,bmi_high,n_records,n_mothers,recommended_week,risk_score,predicted_attainment_rate,threshold_95_week,observed_attainment_rate,early_fraction,mid_fraction,late_fraction
+0,,36.781587565,1000,254,25.0,1.1091689803701459,0.9352077549074636,25.0,0.887,0.072,0.927,0.001
+1,36.781587565,,82,27,25.0,1.6779449820101293,0.7930137544974677,25.0,0.6097560975609756,0.024390243902439025,0.975609756097561,0.0

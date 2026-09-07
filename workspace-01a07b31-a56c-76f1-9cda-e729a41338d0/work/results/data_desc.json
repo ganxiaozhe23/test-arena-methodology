@@ -1,0 +1,63 @@
+{
+ "male": {
+  "rows": 1075,
+  "mothers": 267,
+  "tests_per_mother_mean": 4.03,
+  "gest": [
+   11.0,
+   27.7,
+   16.8
+  ],
+  "bmi": [
+   20.7,
+   46.9,
+   32.3
+  ],
+  "age": [
+   21,
+   43,
+   28.9
+  ],
+  "bmi_ge35_pct": 15.7,
+  "bmi_ge30_pct": 79.2,
+  "conc_y": [
+   1.0,
+   19.36,
+   7.65
+  ],
+  "conc_y_ge4_pct": 86.5,
+  "aneuploidy_rows": 126,
+  "unhealthy_rows": 38
+ },
+ "female": {
+  "rows": 605,
+  "mothers": 147,
+  "tests_per_mother_mean": 4.12,
+  "gest": [
+   11.0,
+   28.4,
+   18.3
+  ],
+  "bmi": [
+   25.6,
+   45.7,
+   32.2
+  ],
+  "age": [
+   19,
+   44,
+   30.0
+  ],
+  "bmi_ge35_pct": 15.0,
+  "bmi_ge30_pct": 76.9,
+  "aneuploidy_rows": 67,
+  "aneuploidy_dist": {
+   "T18": 33,
+   "T13T18": 11,
+   "T13": 10,
+   "T21": 9,
+   "T18T21": 2,
+   "T13T21": 2
+  }
+ }
+}

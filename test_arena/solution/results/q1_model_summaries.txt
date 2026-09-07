@@ -1,0 +1,155 @@
+Model A summary
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Y染色体浓度   R-squared:                       0.046
+Model:                            OLS   Adj. R-squared:                  0.044
+Method:                 Least Squares   F-statistic:                     25.72
+Date:                Mon, 07 Sep 2026   Prob (F-statistic):           1.23e-11
+Time:                        03:05:26   Log-Likelihood:                 2162.3
+No. Observations:                1081   AIC:                            -4319.
+Df Residuals:                    1078   BIC:                            -4304.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1194      0.011     10.689      0.000       0.097       0.141
+孕周数值           0.0013      0.000      5.069      0.000       0.001       0.002
+孕妇BMI         -0.0020      0.000     -5.777      0.000      -0.003      -0.001
+==============================================================================
+Omnibus:                       77.980   Durbin-Watson:                   0.818
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              102.702
+Skew:                           0.616   Prob(JB):                     5.00e-23
+Kurtosis:                       3.872   Cond. No.                         410.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model B
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Y染色体浓度   R-squared:                       0.047
+Model:                            OLS   Adj. R-squared:                  0.044
+Method:                 Least Squares   F-statistic:                     17.61
+Date:                Mon, 07 Sep 2026   Prob (F-statistic):           3.62e-11
+Time:                        03:05:26   Log-Likelihood:                 2163.0
+No. Observations:                1081   AIC:                            -4318.
+Df Residuals:                    1077   BIC:                            -4298.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1725      0.047      3.708      0.000       0.081       0.264
+孕周数值          -0.0018      0.003     -0.684      0.494      -0.007       0.003
+孕妇BMI         -0.0036      0.001     -2.508      0.012      -0.006      -0.001
+BMI_GW      9.288e-05   7.89e-05      1.177      0.239    -6.2e-05       0.000
+==============================================================================
+Omnibus:                       73.811   Durbin-Watson:                   0.815
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.505
+Skew:                           0.599   Prob(JB):                     1.83e-21
+Kurtosis:                       3.827   Cond. No.                     2.65e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.65e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Model C
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Y染色体浓度   R-squared:                       0.056
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                     12.83
+Date:                Mon, 07 Sep 2026   Prob (F-statistic):           3.88e-12
+Time:                        03:05:26   Log-Likelihood:                 2168.4
+No. Observations:                1081   AIC:                            -4325.
+Df Residuals:                    1075   BIC:                            -4295.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0387      0.075      0.514      0.608      -0.109       0.187
+孕周数值          -0.0065      0.003     -1.962      0.050      -0.013    1.64e-07
+孕妇BMI          0.0069      0.004      1.742      0.082      -0.001       0.015
+GW2            0.0001    6.6e-05      1.785      0.075   -1.17e-05       0.000
+BMI2          -0.0002   5.78e-05     -2.764      0.006      -0.000   -4.63e-05
+BMI_GW         0.0001   8.03e-05      1.340      0.181      -5e-05       0.000
+==============================================================================
+Omnibus:                       87.252   Durbin-Watson:                   0.826
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              119.851
+Skew:                           0.651   Prob(JB):                     9.43e-27
+Kurtosis:                       3.982   Cond. No.                     9.46e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.46e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Model D logY
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   logY   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     24.67
+Date:                Mon, 07 Sep 2026   Prob (F-statistic):           3.34e-11
+Time:                        03:05:26   Log-Likelihood:                -697.13
+No. Observations:                1081   AIC:                             1400.
+Df Residuals:                    1078   BIC:                             1415.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -1.9421      0.157    -12.346      0.000      -2.251      -1.633
+孕周数值           0.0144      0.003      4.123      0.000       0.008       0.021
+孕妇BMI         -0.0298      0.005     -6.241      0.000      -0.039      -0.020
+==============================================================================
+Omnibus:                       52.381   Durbin-Watson:                   0.813
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               58.921
+Skew:                          -0.567   Prob(JB):                     1.61e-13
+Kurtosis:                       3.154   Cond. No.                         410.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model E full
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Y染色体浓度   R-squared:                       0.090
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     13.24
+Date:                Mon, 07 Sep 2026   Prob (F-statistic):           2.31e-18
+Time:                        03:05:26   Log-Likelihood:                 2188.0
+No. Observations:                1081   AIC:                            -4358.
+Df Residuals:                    1072   BIC:                            -4313.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.4638      0.336     -1.379      0.168      -1.124       0.196
+孕周数值           0.0012      0.000      4.772      0.000       0.001       0.002
+孕妇BMI          0.0094      0.005      1.930      0.054      -0.000       0.019
+年龄            -0.0010      0.000     -3.737      0.000      -0.002      -0.000
+身高             0.0039      0.002      2.035      0.042       0.000       0.008
+体重            -0.0043      0.002     -2.332      0.020      -0.008      -0.001
+GC含量          -0.0502      0.296     -0.170      0.865      -0.631       0.531
+原始读段数      -4.538e-09   1.06e-09     -4.300      0.000   -6.61e-09   -2.47e-09
+被过滤掉读段数的比例     0.7745      0.293      2.639      0.008       0.199       1.350
+==============================================================================
+Omnibus:                       82.328   Durbin-Watson:                   0.848
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              110.402
+Skew:                           0.634   Prob(JB):                     1.06e-24
+Kurtosis:                       3.919   Cond. No.                     1.83e+09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.83e+09. This might indicate that there are
+strong multicollinearity or other numerical problems.

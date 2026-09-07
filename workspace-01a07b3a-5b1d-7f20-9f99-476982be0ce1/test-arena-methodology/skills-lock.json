@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "mathodology-agent-pipeline": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-agent-pipeline/SKILL.md",
+      "computedHash": "f07f25c4bb575c1e8ab3804c36a7ecef3c4c5c0bbf35c3a4f4bfe92290784436"
+    },
+    "mathodology-award-gates": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-award-gates/SKILL.md",
+      "computedHash": "d1ff03e1e7ee2d8d519667a915c9c91d7893b64d64af710dd284de3b90c6a237"
+    },
+    "mathodology-dev-test-release": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-dev-test-release/SKILL.md",
+      "computedHash": "9bff767bb333792a7058ee20db43cf15f6118edb5bc228b60d43e4adbe35f45f"
+    },
+    "mathodology-evidence-search": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-evidence-search/SKILL.md",
+      "computedHash": "2198ed3c3f227b6cc206d11d3f295f14ad523734d006f848f48bd015a400e045"
+    },
+    "mathodology-figure-presets": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-figure-presets/SKILL.md",
+      "computedHash": "348c1600d33015687819da98a937443e80b6c660ccc636cfe667d241f861e05b"
+    },
+    "mathodology-project-orientation": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-project-orientation/SKILL.md",
+      "computedHash": "d64cc795dc6bfb4fb598043b7691df2aba3eda66501059981ee56a99201d38e7"
+    },
+    "mathodology-skill-authoring": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-skill-authoring/SKILL.md",
+      "computedHash": "071b5029a1cc5fa001e01ff7b32eef0a6139249d5f3e1f501f9df1c6d96a636b"
+    },
+    "mathodology-whole-project": {
+      "source": "sweetcornna/mathodology",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/mathodology-whole-project/SKILL.md",
+      "computedHash": "ae3752e36ed43f5039c02dae4acf434fd2f401ac522e1e8e28d23d83e4cad6e7"
+    }
+  }
+}

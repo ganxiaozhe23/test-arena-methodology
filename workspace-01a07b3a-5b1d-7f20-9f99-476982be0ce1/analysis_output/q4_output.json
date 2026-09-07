@@ -1,0 +1,127 @@
+{
+  "dataset_info": {
+    "total_samples": 605,
+    "abnormal_count": 67,
+    "normal_count": 538,
+    "prevalence": 0.11074380165289256
+  },
+  "model_evaluations": {
+    "Logistic Regression": {
+      "ROC_AUC": 0.8011429839649338,
+      "Accuracy": 0.7785123966942149,
+      "Sensitivity_Recall": 0.7014925373134329,
+      "Specificity": 0.7881040892193308,
+      "Precision": 0.2919254658385093,
+      "F1_Score": 0.41228070175438597,
+      "Brier_Score": 0.1532774164512622,
+      "Confusion_Matrix": [
+        [
+          424,
+          114
+        ],
+        [
+          20,
+          47
+        ]
+      ]
+    },
+    "Random Forest": {
+      "ROC_AUC": 0.7811407645785942,
+      "Accuracy": 0.9024793388429752,
+      "Sensitivity_Recall": 0.14925373134328357,
+      "Specificity": 0.9962825278810409,
+      "Precision": 0.8333333333333334,
+      "F1_Score": 0.25316455696202533,
+      "Brier_Score": 0.09236099262004527,
+      "Confusion_Matrix": [
+        [
+          536,
+          2
+        ],
+        [
+          57,
+          10
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "ROC_AUC": 0.8086056705320979,
+      "Accuracy": 0.8958677685950414,
+      "Sensitivity_Recall": 0.29850746268656714,
+      "Specificity": 0.9702602230483272,
+      "Precision": 0.5555555555555556,
+      "F1_Score": 0.3883495145631068,
+      "Brier_Score": 0.0793618714405365,
+      "Confusion_Matrix": [
+        [
+          522,
+          16
+        ],
+        [
+          47,
+          20
+        ]
+      ]
+    },
+    "GC-Corrected Clinical Z-Score Rule": {
+      "ROC_AUC": 0.6209842978416468,
+      "Description": "Multi-chromosome GC-corrected adaptive Z-score + X-concentration penalty"
+    }
+  },
+  "trisomy_specific_models": {
+    "T13": {
+      "positives": 23,
+      "ROC_AUC": 0.8244434483789034
+    },
+    "T18": {
+      "positives": 46,
+      "ROC_AUC": 0.7803531150346115
+    },
+    "T21": {
+      "positives": 13,
+      "ROC_AUC": 0.43152286902286907
+    }
+  },
+  "top_features": [
+    {
+      "feature": "X\u67d3\u8272\u4f53\u6d53\u5ea6",
+      "importance": 0.19158445713543762
+    },
+    {
+      "feature": "13\u53f7\u67d3\u8272\u4f53\u7684GC\u542b\u91cf",
+      "importance": 0.07359868890003625
+    },
+    {
+      "feature": "18\u53f7\u67d3\u8272\u4f53\u7684GC\u542b\u91cf",
+      "importance": 0.06175997057735117
+    },
+    {
+      "feature": "\u5b55\u5987BMI",
+      "importance": 0.060327869510318745
+    },
+    {
+      "feature": "GC_diff_13",
+      "importance": 0.0508735019093198
+    },
+    {
+      "feature": "21\u53f7\u67d3\u8272\u4f53\u7684GC\u542b\u91cf",
+      "importance": 0.04762576653645262
+    },
+    {
+      "feature": "GC_diff_18",
+      "importance": 0.04632670692478111
+    },
+    {
+      "feature": "GC_diff_21",
+      "importance": 0.039245568208874704
+    },
+    {
+      "feature": "GA",
+      "importance": 0.03913382348600849
+    },
+    {
+      "feature": "\u4f53\u91cd",
+      "importance": 0.0389593753825449
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "empirical_grouping": {
+    "bins": [
+      20.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      50.0
+    ],
+    "groups": [
+      {
+        "group": "[20.0, 28.0)",
+        "n_patients": 5,
+        "pct_patients": 1.8726591760299627,
+        "mean_BMI": 26.20407640209932,
+        "mean_Age": 30.4,
+        "mean_Height": 160.2,
+        "mean_Weight": 67.27799999999999,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.6521234706171449,
+        "avg_qual_prob": 0.8814320962514282
+      },
+      {
+        "group": "[28.0, 32.0)",
+        "n_patients": 147,
+        "pct_patients": 55.0561797752809,
+        "mean_BMI": 29.98433773949868,
+        "mean_Age": 28.918367346938776,
+        "mean_Height": 160.8231292517007,
+        "mean_Weight": 77.62190476190476,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.8566013858528302,
+        "avg_qual_prob": 0.8442542934813037
+      },
+      {
+        "group": "[32.0, 36.0)",
+        "n_patients": 95,
+        "pct_patients": 35.580524344569284,
+        "mean_BMI": 33.559837657800976,
+        "mean_Age": 29.042105263157893,
+        "mean_Height": 160.96315789473684,
+        "mean_Weight": 87.02410526315788,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.1678118965480484,
+        "avg_qual_prob": 0.7876705642639914
+      },
+      {
+        "group": "[36.0, 40.0)",
+        "n_patients": 16,
+        "pct_patients": 5.992509363295881,
+        "mean_BMI": 37.70213785838301,
+        "mean_Age": 27.9375,
+        "mean_Height": 164.34375,
+        "mean_Weight": 101.824375,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.607424864041272,
+        "avg_qual_prob": 0.7077409338106779
+      },
+      {
+        "group": "[40.0, 50.0)",
+        "n_patients": 4,
+        "pct_patients": 1.4981273408239701,
+        "mean_BMI": 43.28222994,
+        "mean_Age": 31.25,
+        "mean_Height": 165.0,
+        "mean_Weight": 117.825,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 2.4877526939709953,
+        "avg_qual_prob": 0.5476813283689099
+      }
+    ],
+    "avg_population_risk": 1.0329324338803771
+  },
+  "optimal_4group": {
+    "bins": [
+      20.693125,
+      29.756464415,
+      31.28831929,
+      33.35885589395795,
+      46.885
+    ],
+    "groups": [
+      {
+        "group": "[20.7, 29.8)",
+        "n_patients": 67,
+        "pct_patients": 25.0936329588015,
+        "mean_BMI": 28.7590843828114,
+        "mean_Age": 28.70149253731343,
+        "mean_Height": 161.0597014925373,
+        "mean_Weight": 74.68149253731343,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.7602964284525542,
+        "avg_qual_prob": 0.8617642857358992
+      },
+      {
+        "group": "[29.8, 31.3)",
+        "n_patients": 66,
+        "pct_patients": 24.719101123595504,
+        "mean_BMI": 30.46412171258741,
+        "mean_Age": 29.09090909090909,
+        "mean_Height": 160.41666666666666,
+        "mean_Weight": 78.46848484848485,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.8840505718469687,
+        "avg_qual_prob": 0.8392635323914603
+      },
+      {
+        "group": "[31.3, 33.4)",
+        "n_patients": 67,
+        "pct_patients": 25.0936329588015,
+        "mean_BMI": 32.38634982152512,
+        "mean_Age": 28.746268656716417,
+        "mean_Height": 161.02985074626866,
+        "mean_Weight": 84.05835820895521,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.0543689727711323,
+        "avg_qual_prob": 0.8082965504052487
+      },
+      {
+        "group": "[33.4, 46.9)",
+        "n_patients": 67,
+        "pct_patients": 25.0936329588015,
+        "mean_BMI": 35.75954638777175,
+        "mean_Age": 29.328358208955223,
+        "mean_Height": 162.02238805970148,
+        "mean_Weight": 94.03134328358207,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.430791645107071,
+        "avg_qual_prob": 0.7398560645259871
+      }
+    ],
+    "avg_population_risk": 1.0329324338803771
+  },
+  "optimal_5group": {
+    "bins": [
+      20.693125,
+      29.42366741721042,
+      30.4833793,
+      32.19981183565924,
+      33.87191065284194,
+      46.885
+    ],
+    "groups": [
+      {
+        "group": "[20.7, 29.4)",
+        "n_patients": 54,
+        "pct_patients": 20.224719101123593,
+        "mean_BMI": 28.548278249010952,
+        "mean_Age": 28.703703703703702,
+        "mean_Height": 160.92592592592592,
+        "mean_Weight": 74.00648148148149,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.7428522577197975,
+        "avg_qual_prob": 0.8649359531418549
+      },
+      {
+        "group": "[29.4, 30.5)",
+        "n_patients": 52,
+        "pct_patients": 19.475655430711612,
+        "mean_BMI": 30.042689670445842,
+        "mean_Age": 29.307692307692307,
+        "mean_Height": 160.96153846153845,
+        "mean_Weight": 77.91846153846153,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.8737188034663048,
+        "avg_qual_prob": 0.8411420357333992
+      },
+      {
+        "group": "[30.5, 32.2)",
+        "n_patients": 54,
+        "pct_patients": 20.224719101123593,
+        "mean_BMI": 31.32165796733902,
+        "mean_Age": 28.796296296296298,
+        "mean_Height": 160.46296296296296,
+        "mean_Weight": 80.72592592592592,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 0.9568726414163079,
+        "avg_qual_prob": 0.8260231561061256
+      },
+      {
+        "group": "[32.2, 33.9)",
+        "n_patients": 53,
+        "pct_patients": 19.850187265917604,
+        "mean_BMI": 32.99935606126718,
+        "mean_Age": 28.754716981132077,
+        "mean_Height": 161.19811320754718,
+        "mean_Weight": 85.83075471698113,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.0925816826852275,
+        "avg_qual_prob": 0.8013487849663221
+      },
+      {
+        "group": "[33.9, 46.9)",
+        "n_patients": 54,
+        "pct_patients": 20.224719101123593,
+        "mean_BMI": 36.27969338719965,
+        "mean_Age": 29.27777777777778,
+        "mean_Height": 162.12037037037038,
+        "mean_Weight": 95.52314814814817,
+        "opt_NIPT_timing": 10.0,
+        "avg_risk": 1.4938445987064086,
+        "avg_qual_prob": 0.7283918911442895
+      }
+    ],
+    "avg_population_risk": 1.032932433880377
+  },
+  "sensitivity": [
+    {
+      "sigma_e": 0.0,
+      "emp_avg_risk": 1.0329324338803771,
+      "q4_avg_risk": 1.0329324338803771
+    },
+    {
+      "sigma_e": 0.002,
+      "emp_avg_risk": 1.0353012192704754,
+      "q4_avg_risk": 1.0353012192704751
+    },
+    {
+      "sigma_e": 0.005,
+      "emp_avg_risk": 1.0475844664516913,
+      "q4_avg_risk": 1.0475844664516911
+    },
+    {
+      "sigma_e": 0.008,
+      "emp_avg_risk": 1.069736875894766,
+      "q4_avg_risk": 1.069736875894766
+    },
+    {
+      "sigma_e": 0.01,
+      "emp_avg_risk": 1.08946083020048,
+      "q4_avg_risk": 1.08946083020048
+    },
+    {
+      "sigma_e": 0.015,
+      "emp_avg_risk": 1.1530546205437149,
+      "q4_avg_risk": 1.1530546205437147
+    },
+    {
+      "sigma_e": 0.02,
+      "emp_avg_risk": 1.2311900235092277,
+      "q4_avg_risk": 1.2311900235092277
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+ "n": 1075,
+ "delta": 2.0,
+ "lambda": 0.05,
+ "p_fail": {
+  "base": 0.02,
+  "early": 0.06,
+  "kappa": 0.5
+ },
+ "sigma2_total": 0.2203,
+ "empirical_validation": [
+  {
+   "gest_bin": "[10, 12)",
+   "bmi_bin": "[28, 32)",
+   "n": 35,
+   "emp_rate": 0.886,
+   "model_rate": 0.871
+  },
+  {
+   "gest_bin": "[10, 12)",
+   "bmi_bin": "[32, 36)",
+   "n": 19,
+   "emp_rate": 0.842,
+   "model_rate": 0.834
+  },
+  {
+   "gest_bin": "[12, 14)",
+   "bmi_bin": "[28, 32)",
+   "n": 154,
+   "emp_rate": 0.87,
+   "model_rate": 0.883
+  },
+  {
+   "gest_bin": "[12, 14)",
+   "bmi_bin": "[32, 36)",
+   "n": 116,
+   "emp_rate": 0.888,
+   "model_rate": 0.847
+  },
+  {
+   "gest_bin": "[12, 14)",
+   "bmi_bin": "[36, 40)",
+   "n": 16,
+   "emp_rate": 0.5,
+   "model_rate": 0.723
+  },
+  {
+   "gest_bin": "[14, 16)",
+   "bmi_bin": "[28, 32)",
+   "n": 88,
+   "emp_rate": 0.932,
+   "model_rate": 0.893
+  },
+  {
+   "gest_bin": "[14, 16)",
+   "bmi_bin": "[32, 36)",
+   "n": 83,
+   "emp_rate": 0.988,
+   "model_rate": 0.86
+  },
+  {
+   "gest_bin": "[16, 18)",
+   "bmi_bin": "[28, 32)",
+   "n": 89,
+   "emp_rate": 0.843,
+   "model_rate": 0.904
+  },
+  {
+   "gest_bin": "[16, 18)",
+   "bmi_bin": "[32, 36)",
+   "n": 80,
+   "emp_rate": 0.8,
+   "model_rate": 0.873
+  },
+  {
+   "gest_bin": "[16, 18)",
+   "bmi_bin": "[36, 40)",
+   "n": 18,
+   "emp_rate": 0.611,
+   "model_rate": 0.759
+  },
+  {
+   "gest_bin": "[18, 20)",
+   "bmi_bin": "[28, 32)",
+   "n": 43,
+   "emp_rate": 0.837,
+   "model_rate": 0.913
+  },
+  {
+   "gest_bin": "[18, 20)",
+   "bmi_bin": "[32, 36)",
+   "n": 16,
+   "emp_rate": 0.938,
+   "model_rate": 0.884
+  },
+  {
+   "gest_bin": "[18, 20)",
+   "bmi_bin": "[36, 40)",
+   "n": 8,
+   "emp_rate": 0.75,
+   "model_rate": 0.777
+  },
+  {
+   "gest_bin": "[20, 22)",
+   "bmi_bin": "[28, 32)",
+   "n": 52,
+   "emp_rate": 0.923,
+   "model_rate": 0.922
+  },
+  {
+   "gest_bin": "[20, 22)",
+   "bmi_bin": "[32, 36)",
+   "n": 40,
+   "emp_rate": 0.775,
+   "model_rate": 0.895
+  },
+  {
+   "gest_bin": "[20, 22)",
+   "bmi_bin": "[36, 40)",
+   "n": 15,
+   "emp_rate": 0.533,
+   "model_rate": 0.793
+  },
+  {
+   "gest_bin": "[22, 24)",
+   "bmi_bin": "[28, 32)",
+   "n": 39,
+   "emp_rate": 0.974,
+   "model_rate": 0.93
+  },
+  {
+   "gest_bin": "[22, 24)",
+   "bmi_bin": "[32, 36)",
+   "n": 36,
+   "emp_rate": 0.861,
+   "model_rate": 0.905
+  },
+  {
+   "gest_bin": "[22, 24)",
+   "bmi_bin": "[36, 40)",
+   "n": 15,
+   "emp_rate": 0.867,
+   "model_rate": 0.809
+  },
+  {
+   "gest_bin": "[24, 26)",
+   "bmi_bin": "[28, 32)",
+   "n": 31,
+   "emp_rate": 1.0,
+   "model_rate": 0.937
+  },
+  {
+   "gest_bin": "[24, 26)",
+   "bmi_bin": "[32, 36)",
+   "n": 19,
+   "emp_rate": 0.947,
+   "model_rate": 0.914
+  },
+  {
+   "gest_bin": "[24, 26)",
+   "bmi_bin": "[36, 40)",
+   "n": 12,
+   "emp_rate": 0.667,
+   "model_rate": 0.824
+  }
+ ],
+ "empirical_first_pass_by_bmi": {
+  "20-28": {
+   "n_mothers": 8,
+   "n_reached": 7,
+   "reach_rate": 0.875,
+   "median_first_pass_week": 13.0
+  },
+  "28-32": {
+   "n_mothers": 151,
+   "n_reached": 148,
+   "reach_rate": 0.98,
+   "median_first_pass_week": 12.79
+  },
+  "32-36": {
+   "n_mothers": 126,
+   "n_reached": 118,
+   "reach_rate": 0.937,
+   "median_first_pass_week": 13.29
+  },
+  "36-40": {
+   "n_mothers": 31,
+   "n_reached": 30,
+   "reach_rate": 0.968,
+   "median_first_pass_week": 16.71
+  },
+  "40+": {
+   "n_mothers": 8,
+   "n_reached": 7,
+   "reach_rate": 0.875,
+   "median_first_pass_week": 20.14
+  }
+ },
+ "model_time_to_reach": {
+  "BMI=25": {
+   "t_50%": 10.0,
+   "t_80%": 10.0,
+   "t_95%": null
+  },
+  "BMI=30": {
+   "t_50%": 10.0,
+   "t_80%": 10.0,
+   "t_95%": null
+  },
+  "BMI=35": {
+   "t_50%": 10.0,
+   "t_80%": 10.0,
+   "t_95%": null
+  },
+  "BMI=40": {
+   "t_50%": 10.0,
+   "t_80%": null,
+   "t_95%": null
+  },
+  "BMI=45": {
+   "t_50%": null,
+   "t_80%": null,
+   "t_95%": null
+  }
+ },
+ "empirical_grouping_result": [
+  {
+   "group": "20-28",
+   "n": 19,
+   "best_t": 10.0,
+   "mean_risk": 1.0363,
+   "pass_rate_at_best_t": 0.817
+  },
+  {
+   "group": "28-32",
+   "n": 536,
+   "best_t": 10.0,
+   "mean_risk": 1.0226,
+   "pass_rate_at_best_t": 0.863
+  },
+  {
+   "group": "32-36",
+   "n": 410,
+   "best_t": 10.0,
+   "mean_risk": 1.0293,
+   "pass_rate_at_best_t": 0.829
+  },
+  {
+   "group": "36-40",
+   "n": 93,
+   "best_t": 10.0,
+   "mean_risk": 1.0633,
+   "pass_rate_at_best_t": 0.716
+  },
+  {
+   "group": "40+",
+   "n": 17,
+   "best_t": 10.25,
+   "mean_risk": 1.974,
+   "pass_rate_at_best_t": 0.382
+  }
+ ],
+ "empirical_total_risk": 1.0438,
+ "empirical_group_total_risk": 1.044,
+ "optimized_grouping": {
+  "K4": {
+   "total_risk_per_person": 1.0442,
+   "groups": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "n": 74,
+     "best_t": 10.0,
+     "mean_risk": 1.0261,
+     "mean_ntests": 1.266,
+     "pass_rate": 0.851,
+     "valid_rate": 0.783
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "n": 50,
+     "best_t": 10.0,
+     "mean_risk": 1.0222,
+     "mean_ntests": 1.242,
+     "pass_rate": 0.865,
+     "valid_rate": 0.796
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      38.0
+     ],
+     "n": 909,
+     "best_t": 10.0,
+     "mean_risk": 1.0278,
+     "mean_ntests": 1.28,
+     "pass_rate": 0.839,
+     "valid_rate": 0.772
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "n": 42,
+     "best_t": 10.25,
+     "mean_risk": 1.4575,
+     "mean_ntests": 2.233,
+     "pass_rate": 0.535,
+     "valid_rate": 0.496
+    }
+   ]
+  },
+  "K5": {
+   "total_risk_per_person": 1.0442,
+   "groups": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "n": 74,
+     "best_t": 10.0,
+     "mean_risk": 1.0261,
+     "mean_ntests": 1.266,
+     "pass_rate": 0.851,
+     "valid_rate": 0.783
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "n": 50,
+     "best_t": 10.0,
+     "mean_risk": 1.0222,
+     "mean_ntests": 1.242,
+     "pass_rate": 0.865,
+     "valid_rate": 0.796
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      29.5
+     ],
+     "n": 67,
+     "best_t": 10.0,
+     "mean_risk": 1.0221,
+     "mean_ntests": 1.242,
+     "pass_rate": 0.865,
+     "valid_rate": 0.796
+    },
+    {
+     "bmi_interval": [
+      30.0,
+      38.0
+     ],
+     "n": 842,
+     "best_t": 10.0,
+     "mean_risk": 1.0283,
+     "mean_ntests": 1.283,
+     "pass_rate": 0.837,
+     "valid_rate": 0.77
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "n": 42,
+     "best_t": 10.25,
+     "mean_risk": 1.4575,
+     "mean_ntests": 2.233,
+     "pass_rate": 0.535,
+     "valid_rate": 0.496
+    }
+   ]
+  },
+  "K6": {
+   "total_risk_per_person": 1.0442,
+   "groups": [
+    {
+     "bmi_interval": [
+      20.5,
+      28.5
+     ],
+     "n": 74,
+     "best_t": 10.0,
+     "mean_risk": 1.0261,
+     "mean_ntests": 1.266,
+     "pass_rate": 0.851,
+     "valid_rate": 0.783
+    },
+    {
+     "bmi_interval": [
+      29.0,
+      29.0
+     ],
+     "n": 50,
+     "best_t": 10.0,
+     "mean_risk": 1.0222,
+     "mean_ntests": 1.242,
+     "pass_rate": 0.865,
+     "valid_rate": 0.796
+    },
+    {
+     "bmi_interval": [
+      29.5,
+      29.5
+     ],
+     "n": 67,
+     "best_t": 10.0,
+     "mean_risk": 1.0221,
+     "mean_ntests": 1.242,
+     "pass_rate": 0.865,
+     "valid_rate": 0.796
+    },
+    {
+     "bmi_interval": [
+      30.0,
+      30.0
+     ],
+     "n": 80,
+     "best_t": 10.0,
+     "mean_risk": 1.0222,
+     "mean_ntests": 1.242,
+     "pass_rate": 0.865,
+     "valid_rate": 0.796
+    },
+    {
+     "bmi_interval": [
+      30.5,
+      38.0
+     ],
+     "n": 762,
+     "best_t": 10.0,
+     "mean_risk": 1.0289,
+     "mean_ntests": 1.288,
+     "pass_rate": 0.834,
+     "valid_rate": 0.767
+    },
+    {
+     "bmi_interval": [
+      38.5,
+      47.0
+     ],
+     "n": 42,
+     "best_t": 10.25,
+     "mean_risk": 1.4575,
+     "mean_ntests": 2.233,
+     "pass_rate": 0.535,
+     "valid_rate": 0.496
+    }
+   ]
+  }
+ },
+ "bootstrap": {
+  "n_boot": 200,
+  "K": "K4",
+  "cut_ci_low": [
+   28.5,
+   29.0,
+   30.0,
+   47.0
+  ],
+  "cut_ci_high": [
+   31.0,
+   35.5,
+   39.5,
+   47.0
+  ],
+  "cut_median": [
+   29.0,
+   29.5,
+   38.0,
+   47.0
+  ]
+ },
+ "error_sensitivity": [
+  {
+   "cv_error": 0.0,
+   "rows": [
+    {
+     "group": "20-28",
+     "best_t": 10.0,
+     "mean_risk": 1.0363
+    },
+    {
+     "group": "28-32",
+     "best_t": 10.0,
+     "mean_risk": 1.0226
+    },
+    {
+     "group": "32-36",
+     "best_t": 10.0,
+     "mean_risk": 1.0293
+    },
+    {
+     "group": "36-40",
+     "best_t": 10.0,
+     "mean_risk": 1.0633
+    },
+    {
+     "group": "40+",
+     "best_t": 10.25,
+     "mean_risk": 1.974
+    }
+   ],
+   "optimized_total_risk": 1.0442
+  },
+  {
+   "cv_error": 0.05,
+   "rows": [
+    {
+     "group": "20-28",
+     "best_t": 10.0,
+     "mean_risk": 1.0366
+    },
+    {
+     "group": "28-32",
+     "best_t": 10.0,
+     "mean_risk": 1.0229
+    },
+    {
+     "group": "32-36",
+     "best_t": 10.0,
+     "mean_risk": 1.0296
+    },
+    {
+     "group": "36-40",
+     "best_t": 10.0,
+     "mean_risk": 1.0637
+    },
+    {
+     "group": "40+",
+     "best_t": 10.25,
+     "mean_risk": 1.9656
+    }
+   ],
+   "optimized_total_risk": 1.0444
+  },
+  {
+   "cv_error": 0.1,
+   "rows": [
+    {
+     "group": "20-28",
+     "best_t": 10.0,
+     "mean_risk": 1.0375
+    },
+    {
+     "group": "28-32",
+     "best_t": 10.0,
+     "mean_risk": 1.0236
+    },
+    {
+     "group": "32-36",
+     "best_t": 10.0,
+     "mean_risk": 1.0305
+    },
+    {
+     "group": "36-40",
+     "best_t": 10.0,
+     "mean_risk": 1.0649
+    },
+    {
+     "group": "40+",
+     "best_t": 10.25,
+     "mean_risk": 1.9413
+    }
+   ],
+   "optimized_total_risk": 1.0448
+  },
+  {
+   "cv_error": 0.15,
+   "rows": [
+    {
+     "group": "20-28",
+     "best_t": 10.0,
+     "mean_risk": 1.0389
+    },
+    {
+     "group": "28-32",
+     "best_t": 10.0,
+     "mean_risk": 1.0248
+    },
+    {
+     "group": "32-36",
+     "best_t": 10.0,
+     "mean_risk": 1.0319
+    },
+    {
+     "group": "36-40",
+     "best_t": 10.0,
+     "mean_risk": 1.0667
+    },
+    {
+     "group": "40+",
+     "best_t": 10.25,
+     "mean_risk": 1.904
+    }
+   ],
+   "optimized_total_risk": 1.0456
+  },
+  {
+   "cv_error": 0.2,
+   "rows": [
+    {
+     "group": "20-28",
+     "best_t": 10.0,
+     "mean_risk": 1.0408
+    },
+    {
+     "group": "28-32",
+     "best_t": 10.0,
+     "mean_risk": 1.0265
+    },
+    {
+     "group": "32-36",
+     "best_t": 10.0,
+     "mean_risk": 1.0339
+    },
+    {
+     "group": "36-40",
+     "best_t": 10.0,
+     "mean_risk": 1.0692
+    },
+    {
+     "group": "40+",
+     "best_t": 10.25,
+     "mean_risk": 1.8575
+    }
+   ],
+   "optimized_total_risk": 1.0467
+  }
+ ],
+ "fail_sensitivity": [
+  {
+   "p_fail_early": 0.0,
+   "optimized_total_risk": 1.0367,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.25
+   ]
+  },
+  {
+   "p_fail_early": 0.06,
+   "optimized_total_risk": 1.0442,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.25
+   ]
+  },
+  {
+   "p_fail_early": 0.12,
+   "optimized_total_risk": 1.0525,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.25
+   ]
+  },
+  {
+   "p_fail_early": 0.2,
+   "optimized_total_risk": 1.0649,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.25
+   ]
+  }
+ ],
+ "delta_sensitivity": [
+  {
+   "delta": 1.0,
+   "optimized_total_risk": 1.0234,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.25
+   ]
+  },
+  {
+   "delta": 2.0,
+   "optimized_total_risk": 1.0442,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.25
+   ]
+  },
+  {
+   "delta": 3.0,
+   "optimized_total_risk": 1.0898,
+   "best_t_by_group": [
+    10.0,
+    10.0,
+    10.0,
+    10.0
+   ]
+  }
+ ]
+}
